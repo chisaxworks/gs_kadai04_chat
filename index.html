@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+
+    <title>Chat App</title>
+    <link rel="stylesheet" href="css/reset2.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- スマホ用アイコン -->
+    <link rel="apple-touch-icon" href="img/icon.png" />
+
+</head>
+<body>
+    <header>
+        <h1>Chat App</h1>
+    </header>
+    <main>
+        <div class="login-wrap">
+            <div class="name-wrap">
+                <h2>Step1 : Type your name</h2>
+                <input type="text" id="username" placeholder="name">
+            </div>
+            <div class="triangle"></div>
+            <div class="icon-wrap">
+                <h2>Step2 : Select your icon</h2>
+                <div class="icon-sub-wrap">
+                    <button class="sel-icon" id="azarasi"><img src="img/azarasi.png" alt="あざらし"></button>
+                    <button class="sel-icon" id="hitsuji"><img src="img/hitsuji.png" alt=""></button>
+                    <button class="sel-icon" id="panda"><img src="img/panda.png" alt=""></button>
+                    <button class="sel-icon" id="pengin"><img src="img/pengin.png" alt=""></button>
+                    <button class="sel-icon" id="ika"><img src="img/ika.png" alt=""></button>
+                </div>
+            </div>
+            <div class="triangle"></div>
+            <button id="login">Login</button>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 CHISAXWORKS
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script_index.js"></script>
+</body>
+</html>

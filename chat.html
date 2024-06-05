@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+
+    <title>Chat App</title>
+    <link rel="stylesheet" href="css/reset2.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- スマホ用アイコン -->
+    <link rel="apple-touch-icon" href="img/icon.png" />
+
+</head>
+<body>
+    <header>
+        <h1>Chat App</h1>
+    </header>
+    <main>
+        <div id="chat-display">
+            <div id="chat-display-inner">
+                <!-- ここにチャット情報が入る -->
+            </div>
+        </div>
+        <div class="chat-input">
+            <textarea name="chat-text" id="chat-text" placeholder="Type your message..." rows="1"></textarea>
+            <button id="chat-send"><img src="img/send.png" alt="送信"></button>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 CHISAXWORKS
+    </footer>
+
+    <!-- pagetop -->
+    <div class="pagetop">
+        <a href="#"></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="js/script_chat.js"></script>
+</body>
+</html>
